@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+
+span{
+    color: rgb(231, 233, 234);
+}
+
+article{
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.text{
+    display: block;
+}
+
+.reading{
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.emoji{
+    width: auto;
+    height: 28px;
+    vertical-align: top;
+}
+
+#pfp{
+    height: 48px;
+    border-radius: 24px;
+    display: inline-block;
+}
+
+.userid{
+    margin-top: 7px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#user{
+    vertical-align: top;
+}
+
+.username{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    display: block;
+}
+
+#verified{
+    height: 20px;
+    vertical-align: middle;
+}
+
+.tag{
+    color: rgb(113, 118, 123);
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#more{
+    border-radius: 12.5px;
+    transition: color 1s;
+    transition: fill .4s;
+    fill: rgb(113, 118, 123);
+}
+
+#more:hover{
+    background: rgba(37, 122, 161, 0.2);
+    fill: rgb(29, 155, 240);
+}
+
+#megapic{
+    width: 500px;
+    border-radius: 15px;
+}
+
+#views{
+    display: inline;
+    font-weight: 500;
+}
